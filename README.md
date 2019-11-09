@@ -38,4 +38,4 @@ Metric Learning を3チャネル画像で行うためのプログラム
  trainデータの各クラスは5000枚, testデータの各クラスは1000枚である.
  
 ## 埋め込みネットワーク
-基本となるネットワークは, 次のような構成とする.
+基本となるネットワークは, 次のような構成とする. [EmbeddingNet](https://github.com/elasticnet12345/cifar10-pytorch-metric-learning/network.py)
