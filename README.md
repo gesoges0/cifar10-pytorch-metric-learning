@@ -34,5 +34,6 @@ Metric Learning を3チャネル画像で行うためのプログラム
   - test
     - airplane
     - ...
+    
  trainデータの各クラスは5000枚, testデータの各クラスは1000枚である.
  
