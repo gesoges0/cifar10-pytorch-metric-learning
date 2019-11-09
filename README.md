@@ -7,7 +7,7 @@ Metric Learning を3チャネル画像で行うためのプログラム
 
 - Network構造
   - Siamse Network
-  - Triplet Newtowrk |
+  - Triplet Newtowrk 
 - 損失関数
   - Contrastive Loss
   - Online Contrastive Loss
