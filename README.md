@@ -16,3 +16,23 @@ Metric Learning を3チャネル画像で行うためのプログラム
   - Ranked List Loss
   - N-pair MC Loss
   
+# 対象データセット
+まず, cifar10のミラーサイトから画像としてのcifar10を取得する.
+各クラスに対してディレクトリを作り, 以下のようなディレクトリ構成にする.
+- cifar
+  - train
+    - airplane
+    - automobile
+    - bird
+    - cat
+    - deer
+    - dog
+    - frog
+    - horse
+    - ship
+    - truck
+  - test
+    - airplane
+    - ...
+ trainデータの各クラスは5000枚, testデータの各クラスは1000枚である.
+ 
