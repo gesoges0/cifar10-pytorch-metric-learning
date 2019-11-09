@@ -3,8 +3,7 @@ import torch.nn.functional as F
 
 
 class EmbeddingNet(nn.Module):
-    """ 
-        Basic Embedding Network
+    """ Basic Embedding Network
     """
     def __init__(self, fc_input_size=64*6*6):
         super(EmbeddingNet, self).__init__()
@@ -32,5 +31,15 @@ class EmbeddingNet(nn.Module):
         return x
 
 
+class EmbeddingNetL2(EmbeddingNet):
+    """ output l2 norm
+    """
+    def __init__(self):
+        super(EmbeddingNetL2, self).__init__()
+
+    def forward(slef, x):
+        x = super(EmbeddingNetL2, self).forward(x)
+        x /= x.pow(2).sum(1, keepdim=True).sqrt()
+        return x
 
     
