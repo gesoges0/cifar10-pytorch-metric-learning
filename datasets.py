@@ -6,7 +6,7 @@ from torch.utils.data import Dataset
 
 
 # ラベルから数値に変換する辞書
-labels = ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck"]
+labels = ["bird", "cat", "deer", "dog", "frog", "horse", "airplane", "automobile", "ship", "truck"]
 labels2int_dict = dict()
 for i, label in enumerate(labels):
     labels2int_dict[label] = i
