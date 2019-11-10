@@ -34,6 +34,15 @@ Metric Learning を3チャネル画像で行うためのプログラム
     - truck
     
  trainデータの各クラスは5000枚, testデータの各クラスは1000枚である.
- 
+
+## 学習の流れ
+- データ読み込み
+- ネットワーク定義
+- 損失関数の定義
+- 最適化関数の定義
+- 学習
+- 視覚化
+- 推論
+
 ## 埋め込みネットワーク
 基本となるネットワークは, 次のような構成とする. [EmbeddingNet](https://github.com/elasticnet12345/cifar10-pytorch-metric-learning/network.py)
