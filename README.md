@@ -19,7 +19,7 @@ Metric Learning を3チャネル画像で行うためのプログラム
 ## 対象データセット
 まず, cifar10のミラーサイトから画像としてのcifar10を取得する.
 各クラスに対してディレクトリを作り, 以下のようなディレクトリ構成にする.
-- cifar
+- ./dataset/cifar
   - train
     - bird
     - cat
