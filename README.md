@@ -21,19 +21,17 @@ Metric Learning を3チャネル画像で行うためのプログラム
 各クラスに対してディレクトリを作り, 以下のようなディレクトリ構成にする.
 - cifar
   - train
-    - airplane
-    - automobile
     - bird
     - cat
     - deer
     - dog
     - frog
     - horse
-    - ship
-    - truck
   - test
     - airplane
-    - ...
+    - automobile
+    - ship
+    - truck
     
  trainデータの各クラスは5000枚, testデータの各クラスは1000枚である.
  
