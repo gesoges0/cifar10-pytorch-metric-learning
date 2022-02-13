@@ -46,3 +46,5 @@ Metric Learning を3チャネル画像で行うためのプログラム
 
 ## 埋め込みネットワーク
 基本となるネットワークは, 次のような構成とする. [EmbeddingNet](https://github.com/elasticnet12345/cifar10-pytorch-metric-learning/network.py)
+
+![output](https://github.com/gesoges0/cifar10-pytorch-metric-learning/blob/master/output.png?raw=true, "output")
